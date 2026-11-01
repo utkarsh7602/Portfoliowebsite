@@ -1,91 +1,139 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Utkarsh Sinha Portfolio</title>
+<title>Utkarsh Sinha | Portfolio</title>
 
 <style>
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background: #f4f6f8;
-color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
 }
 
 header {
-background: #2c3e50;
-color: white;
-text-align: center;
-padding: 30px 20px;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
 }
 
 .header-content {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .profile-img {
-width: 110px;
-height: 110px;
-border-radius: 50%;
-object-fit: cover;
-border: 3px solid white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
 }
 
 .links a {
-color: white;
-margin: 0 10px;
-text-decoration: none;
-font-weight: bold;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #3498db;
 }
 
 .container {
-max-width: 900px;
-margin: auto;
-padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
 .section {
-background: white;
-margin-bottom: 20px;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h2 {
-color: #2c3e50;
-border-bottom: 2px solid #eee;
-padding-bottom: 5px;
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
 }
 
 ul {
-padding-left: 20px;
-line-height: 1.7;
+    padding-left: 20px;
+    line-height: 1.7;
 }
 
 .tags span {
-display: inline-block;
-background: #ecf0f1;
-padding: 6px 10px;
-margin: 5px;
-border-radius: 5px;
+    display: inline-block;
+    background: #ecf0f1;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.internship-card {
+    border-left: 4px solid #2c3e50;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.internship-date {
+    color: #777;
+    font-size: 14px;
+}
+
+.internship-badge {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #234b85;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin: 5px 5px 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 12px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    header {
+        padding: 25px 12px;
+    }
 }
 </style>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
 <div class="header-content">
 
-<!-- Upload your image -->
-<img src="profile.jpg" class="profile-img" alt="Profile">
+<img src="profile.jpg" class="profile-img" alt="Utkarsh Sinha">
 
 <h1>Utkarsh Sinha</h1>
+
 <p>BCA Student | KIIT University | Software Development Enthusiast</p>
 
 <p style="margin-top:10px; font-size:15px;">
@@ -95,8 +143,11 @@ border-radius: 5px;
 </p>
 
 <div class="links">
-<a href="YOUR_LINKEDIN_LINK" target="_blank">🔗 LinkedIn</a>
+<a href="https://www.linkedin.com/in/utkarsh-sinha-b6a879287/" target="_blank">🔗 LinkedIn</a>
+
 <a href="YOUR_GITHUB_LINK" target="_blank">💻 GitHub</a>
+
+<a href="https://portfoliowebsite-liart-phi.vercel.app/" target="_blank">🌐 Portfolio</a>
 </div>
 
 </div>
@@ -104,28 +155,65 @@ border-radius: 5px;
 
 <div class="container">
 
+<!-- PROFESSIONAL SUMMARY -->
 <div class="section">
 <h2>Professional Summary</h2>
+
 <p>
-Tech-driven BCA student with strong interest in software development,
-problem-solving, and building interactive applications. Skilled in Java,
-Python, SQL, and core computer science concepts. Passionate about developing
-efficient, user-friendly solutions and continuously improving technical
-expertise through projects and hands-on learning.
+Tech-driven BCA student at KIIT University with a strong
+interest in software development, banking, financial services,
+and problem-solving. Skilled in Java, Python, SQL, and core
+computer science concepts. Completed the State Bank of India
+Summer Internship Programme, gaining exposure to the banking
+sector and professional work environments.
 </p>
 </div>
 
+<!-- EDUCATION -->
 <div class="section">
 <h2>Education</h2>
+
 <ul>
-<li><b>BCA</b> – KIIT Deemed To Be University (2024–2027) | CGPA: 7.19</li>
+<li><b>BCA</b> – KIIT Deemed To Be University (2024–2027) | CGPA: 7.02</li>
+
 <li><b>Class XII</b> – DAV Model School, Durgapur (71.8%)</li>
+
 <li><b>Class X</b> – DAV Model School, Durgapur (92%)</li>
 </ul>
 </div>
 
+<!-- SBI INTERNSHIP -->
+<div class="section">
+<h2>Internship Experience</h2>
+
+<div class="internship-card">
+
+<h3>Summer Intern – State Bank of India (SBI)</h3>
+
+<p class="internship-date">
+Kolkata Circle | 25 May 2026 – 19 July 2026
+</p>
+
+<span class="internship-badge">8 Weeks</span>
+<span class="internship-badge">Banking & Finance</span>
+
+<ul>
+<li>Selected for the State Bank of India Summer Internship Programme 2026–27 through the internship selection process.</li>
+
+<li>Worked under the guidance of an assigned SBI mentor and gained exposure to banking operations and financial services.</li>
+
+<li>Undertook research and project-related activities to understand banking challenges, business environments, and financial-sector developments.</li>
+
+<li>Developed professional understanding of banking processes, research, and organizational practices.</li>
+</ul>
+
+</div>
+</div>
+
+<!-- PROJECTS -->
 <div class="section">
 <h2>Projects</h2>
+
 <ul>
 
 <li>
@@ -154,38 +242,52 @@ object-oriented programming principles and efficient evaluation logic.
 </li>
 
 <li>
-<b>Basic Portfolio Website</b><br>
-Designed a responsive portfolio website using HTML and CSS to showcase
-projects and technical skills with a clean UI structure.
+<b>Portfolio Website</b><br>
+Designed a responsive portfolio website using HTML, CSS, and JavaScript
+to showcase projects and technical skills.
 </li>
 
 </ul>
 </div>
 
+<!-- ACHIEVEMENTS -->
 <div class="section">
 <h2>Achievements</h2>
+
 <ul>
+<li>Selected for the State Bank of India Summer Internship Programme 2026–27.</li>
+
 <li>Developed multiple academic projects demonstrating strong programming fundamentals.</li>
+
 <li>Continuously improving coding and problem-solving skills through hands-on practice.</li>
-<li>Actively learning modern technologies and software development concepts.</li>
 </ul>
 </div>
 
+<!-- CERTIFICATIONS -->
 <div class="section">
 <h2>Certifications</h2>
+
 <ul>
 <li>
 <b>Dynamic Programming Camp – AlgoUniversity</b><br>
+
 Completed intensive training on Dynamic Programming concepts including
 Matrix Exponentiation and SQRT Decomposition under Codeforces mentorship.
 </li>
 </ul>
+
+<p>
+<a href="https://drive.google.com/file/d/1JPAIO72S_a3FeyAYg5ceYNxYwVI-fjNO/view?usp=sharing"
+target="_blank">View All Certificates</a>
+</p>
 </div>
 
+<!-- SKILLS -->
 <div class="section">
 <h2>Skills</h2>
 
 <p><b>Programming Languages:</b></p>
+
 <div class="tags">
 <span>Java</span>
 <span>Python</span>
@@ -194,13 +296,15 @@ Matrix Exponentiation and SQRT Decomposition under Codeforces mentorship.
 </div>
 
 <p><b>Web Development:</b></p>
+
 <div class="tags">
 <span>HTML</span>
 <span>CSS</span>
-<span>Basic JavaScript</span>
+<span>JavaScript</span>
 </div>
 
 <p><b>Core Concepts:</b></p>
+
 <div class="tags">
 <span>OOP</span>
 <span>DBMS</span>
@@ -209,6 +313,7 @@ Matrix Exponentiation and SQRT Decomposition under Codeforces mentorship.
 </div>
 
 <p><b>Tools & Technologies:</b></p>
+
 <div class="tags">
 <span>Git</span>
 <span>GitHub</span>
@@ -216,19 +321,21 @@ Matrix Exponentiation and SQRT Decomposition under Codeforces mentorship.
 <span>VS Code</span>
 </div>
 
-<p><b>Other Skills:</b></p>
+<p><b>Professional Skills:</b></p>
+
 <div class="tags">
-<span>Game Development</span>
-<span>Debugging</span>
 <span>Problem Solving</span>
 <span>Communication</span>
 <span>Teamwork</span>
+<span>Time Management</span>
 </div>
 
 </div>
 
+<!-- LANGUAGES -->
 <div class="section">
 <h2>Languages</h2>
+
 <div class="tags">
 <span>English</span>
 <span>Hindi</span>
@@ -236,18 +343,12 @@ Matrix Exponentiation and SQRT Decomposition under Codeforces mentorship.
 </div>
 </div>
 
-<div class="section">
-<h2>Interests</h2>
-<div class="tags">
-<span>Software Development</span>
-<span>Game Development</span>
-<span>Technology Learning</span>
-<span>Problem Solving</span>
-<span>Keyboard Instrumentation</span>
-</div>
 </div>
 
-</div>
+<!-- FOOTER -->
+<footer>
+© 2026 Utkarsh Sinha | Personal Portfolio
+</footer>
 
 </body>
 </html>
